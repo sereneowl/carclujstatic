@@ -1,0 +1,550 @@
+<style>
+   #member-benefits-content-wrapper p::first-letter {
+      float: initial;
+      padding: 0;
+      font-size: inherit;
+      font-weight: inherit;
+      color: inherit;
+      font-size: inherit;
+   }
+</style>
+
+<!-- wrapper is used to allow to have more specific selectors, without the need to use important -->
+<div id="member-benefits-content-wrapper">
+   <section>
+      <h2>Activități</h2>
+      <p>
+         Membrii CAR au posibilitatea de a participa la toată gama de activități
+         cuprinse în calendarul anual de activități, având acces deopotrivă la turele
+         spontane anunțate pe grupurile interne de discuții. De asemenea,
+         membrii noștri se bucură de tarife preferențiale la atelierele cu taxă.
+      </p>
+   </section>
+
+   <!-- 
+  magazine
+  images are converted to base64 with https://www.base64-image.de/
+ -->
+   <section>
+      <style>
+         .image-grid {
+            margin: 0 auto;
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+         }
+
+         .image-grid * {
+            box-sizing: border-box;
+         }
+
+         /* items */
+         .image-grid-row-item {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 33.33%;
+            padding: 10px 20px;
+            color: inherit;
+            flex-flow: column nowrap;
+            text-decoration: none;
+
+            border-right: 3px solid #e4e8ec;
+            border-bottom: 3px solid #e4e8ec;
+         }
+
+         .image-grid-row-item:last-child,
+         .image-grid-row-item:nth-child(3n) {
+            border-right: 0;
+         }
+
+         .image-grid-row-item:last-child,
+         .image-grid-row-item:nth-last-child(2) {
+            border-bottom: 0;
+         }
+
+         @media (min-width: 768px) {
+            .image-grid-row-item {
+               width: 25%;
+            }
+
+            .image-grid-row-item,
+            .image-grid-row-item:nth-child(3n) {
+               border-right: 3px solid #e4e8ec;
+            }
+
+            .image-grid-row-item:last-child,
+            .image-grid-row-item:nth-child(4n) {
+               border-right: 0;
+            }
+         }
+
+         /* img wrapper */
+         .image-grid-row-item .image-grid-row-img-wrapper {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            height: 85px;
+            margin-bottom: 13px;
+         }
+
+         .image-grid-row-img-wrapper img {
+            height: auto;
+            max-height: 100%;
+            width: auto;
+            max-width: 100%;
+         }
+
+         @media screen {}
+      </style>
+      <h2>Magazine</h2>
+      <div class="image-grid">
+         <a class="image-grid-row-item" href="https://www.alpinexpe.ro" target="_blank">
+            <div class="image-grid-row-img-wrapper">
+               <img src="https://carcluj.ro/sites/default/files/benefits/alpinexpe.png" />
+            </div>
+            <strong>10% DISCOUNT</strong>
+            <div>din prețul întreg</div>
+         </a>
+         <a class="image-grid-row-item" href="https://www.nootkasport.ro" target="_blank">
+            <div class="image-grid-row-img-wrapper">
+               <img src="https://carcluj.ro/sites/default/files/benefits/nootka.png" />
+            </div>
+            <strong>10% DISCOUNT</strong>
+            <div>din prețul întreg</div>
+         </a>
+         <a class="image-grid-row-item" href="http://bike-ski.ro" target="_blank">
+            <div class="image-grid-row-img-wrapper">
+               <img src="https://carcluj.ro/sites/default/files/benefits/skibike.png" />
+            </div>
+            <strong>5% DISCOUNT</strong>
+            <div>inclusiv la produse cu reducere</div>
+         </a>
+         <a class="image-grid-row-item" href="https://mormota.ro" target="_blank">
+            <div class="image-grid-row-img-wrapper">
+               <img src="https://carcluj.ro/sites/default/files/benefits/mormotaland.jpg" />
+            </div>
+            <strong>10% DISCOUNT</strong>
+            <div>din prețul întreg</div>
+         </a>
+         <a class="image-grid-row-item" href="https://www.maramontsport.ro" target="_blank">
+            <div class="image-grid-row-img-wrapper">
+               <img src="https://carcluj.ro/sites/default/files/benefits/maramontsport.jpg">
+            </div>
+            <strong>20% DISCOUNT</strong>
+            <div>din prețul întreg</div>
+         </a>
+         <a class="image-grid-row-item" href="https://merino-shop.ro" target="_blank">
+            <div class="image-grid-row-img-wrapper">
+               <img src="https://carcluj.ro/sites/default/files/benefits/merinito.png" />
+            </div>
+            <strong>20% DISCOUNT</strong>
+            <div>la comenzile anunțate pe mail</div>
+         </a>
+         <a class="image-grid-row-item" href="https://www.attasport.eu" target="_blank">
+            <div class="image-grid-row-img-wrapper">
+               <img src="https://carcluj.ro/sites/default/files/benefits/atta.png" />
+            </div>
+            <strong>10% DISCOUNT</strong>
+            <div>din prețul întreg</div>
+         </a>
+         <a class="image-grid-row-item" href="https://www.zumont.ro" target="_blank">
+            <div class="image-grid-row-img-wrapper">
+               <img src="https://carcluj.ro/sites/default/files/benefits/zumont.png" />
+            </div>
+            <strong>10% DISCOUNT</strong>
+            <div>din prețul întreg</div>
+         </a>
+         <a class="image-grid-row-item" href="https://www.montrek.ro" target="_blank">
+            <div class="image-grid-row-img-wrapper">
+               <img src="https://carcluj.ro/sites/default/files/benefits/montrek.jpg" />
+            </div>
+            <strong>10% DISCOUNT</strong>
+            <div>din prețul întreg</div>
+         </a>
+         <a class="image-grid-row-item" href="http://absolutoutdoor.ro" target="_blank">
+            <div class="image-grid-row-img-wrapper">
+               <img src="https://carcluj.ro/sites/default/files/benefits/absolutoutdoor.jpg" />
+            </div>
+            <strong>20-28% DISCOUNT</strong>
+            <span>detalii la <sup>1</sup> mai jos</span>
+         </a>
+         <a class="image-grid-row-item" href="http://www.sportvirus.ro" target="_blank">
+            <div class="image-grid-row-img-wrapper">
+               <img src="https://carcluj.ro/sites/default/files/benefits/sportvirus.jpg" />
+            </div>
+            <strong>10% DISCOUNT</strong>
+            <div>din prețul întreg</div>
+         </a>
+         <a class="image-grid-row-item" href="https://www.s-karp.ro" target="_blank">
+            <div class="image-grid-row-img-wrapper">
+               <img src="https://carcluj.ro/sites/default/files/benefits/skarp.png">
+            </div>
+            <strong>10% DISCOUNT</strong>
+            <span>detalii la <sup>2</sup> mai jos</span>
+         </a>
+         <a class="image-grid-row-item" href="http://bornformountain.ro" target="_blank">
+            <div class="image-grid-row-img-wrapper">
+               <img src="https://carcluj.ro/sites/default/files/benefits/bornformountain.png" />
+            </div>
+            <strong>20% DISCOUNT</strong>
+            <div>din prețul întreg</div>
+         </a>
+         <a class="image-grid-row-item image-grid-row-item-border-right" href="https://www.himalaya.ro" target="_blank">
+            <div class="image-grid-row-img-wrapper">
+               <img src="https://carcluj.ro/sites/default/files/benefits/himalaya.png" />
+            </div>
+            <strong>10% DISCOUNT</strong>
+            <div>din prețul întreg</div>
+         </a>
+      </div>
+   </section>
+
+   <!-- style for next three sections -->
+   <style>
+      .copyright {
+         font-size: 8px;
+      }
+
+      .image-text-grid * {
+         box-sizing: border-box;
+      }
+
+      .image-text-grid {
+         margin-bottom: 40px;
+      }
+
+      .image-text-grid-row {
+         display: flex;
+         margin: 0 auto;
+         border-bottom: 3px solid #e4e8ec;
+      }
+
+      .image-text-grid-row:last-child {
+         border-bottom: none;
+      }
+
+      /* img */
+      .image-text-grid-img {
+         text-align: center;
+         max-width: 25%;
+         min-width: 25%;
+         padding-top: 30px;
+         padding-right: 20px;
+         padding-bottom: 30px;
+      }
+
+      .image-text-grid-img img {
+         max-width: 100%;
+         height: auto;
+         max-height: 160px;
+      }
+
+      /* text */
+      .image-text-grid-text {
+         padding: 30px 20px 20px;
+
+         border-left: 3px solid #e4e8ec;
+      }
+
+      .image-text-grid-text ul {
+         margin: 0;
+         padding: 0 0 0 20px;
+      }
+
+      .image-text-grid-text h2 a {
+         text-decoration: none;
+         color: inherit;
+      }
+
+      .image-text-grid-text h2 {
+         margin-top: 0;
+      }
+   </style>
+
+   <!-- sali de escapada -->
+   <section>
+      <h2>În străinătate</h2>
+      <div class="image-text-grid">
+         <div class="image-text-grid-row">
+            <div class="image-text-grid-img">
+               <img src="https://carcluj.ro/sites/default/files/benefits/backpack.png" />
+               <div class="copyright">
+                  <a href="https://commons.wikimedia.org/wiki/File:Backpack_icon.svg">Boca Tutor</a>, <a
+                     href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
+               </div>
+            </div>
+            <div class="image-text-grid-text">
+               <h2><a>Asigurare de călătorie și accident</a></h2>
+               <p>Sunt acoperite toate activitățile montane, fără a se limita la: alpinism, schi, schi de tură,
+                  drumeție, river-rafting,
+                  stand up paddle, parapantă, ciclism, ciclism montan, etc</p>
+               <ul>
+                  <li>
+                     <strong>Asigurarea de călătorie</strong> este valabilă pentru minim 3 zile consecutive și maxim 56
+                     de zile pe an, până la 6000m. <br />
+                     Asigurarea CAR costă 7 lei/zi pentru călătorii în Europa și 15 lei/zi pentru călătorii în restul
+                     lumii.
+                  </li>
+                  <li>
+                     <strong>Asigurarea de accident</strong> are acoperire în întreaga lume, fără limită de altitudine.
+                     <br />
+                     Asigurarea începe de la 100 de lei/an și mai are opțiunile de la 200 de lei, 500 de lei și 1000 de
+                     lei.
+                  </li>
+               </ul>
+               <p>Pentru asigurarea de călătorie scrieți la adresa <a
+                     href="mailto:daniel.lacusteanu@myinsurance.ro">daniel.lacusteanu@myinsurance.ro</a>
+                  sau sunați la 0729222411, iar pentru asigurarea de accidente scrieți la adresa <a
+                     href="mailto:car@inkbroker.ro">car@inkbroker.ro</a> sau
+                  sunați la 0724299591</p>
+            </div>
+         </div>
+         <div class="image-text-grid-row">
+            <div class="image-text-grid-img">
+               <img src="https://carcluj.ro/sites/default/files/benefits/mountainhut.png" />
+               <div class="copyright">
+                  Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a
+                     href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+               </div>
+            </div>
+            <div class="image-text-grid-text">
+               <h2><a>Reducere la cazare în Alpi</a></h2>
+               <p>Pe baza unui timbru anual de 50 EUR, membrii CAR beneficiază de reducere de până la 50% la cabanele
+                  din Alpi, ca membrii UIAA <br />
+                  Pentru detalii consultați <a href="https://www.theuiaa.org/members/mountain-hut-exchange/"
+                     target="_blank">pagina UIAA Mountain Hut Exchange</a></p>
+            </div>
+         </div>
+      </div>
+
+      <h2>Săli de escaladă</h2>
+      <div class="image-text-grid">
+         <div class="image-text-grid-row">
+            <div class="image-text-grid-img">
+               <a href="https://ro-ro.facebook.com/CentralaDeEscalada/" target="_blank">
+                  <img src="https://carcluj.ro/sites/default/files/benefits/centrala.png" />
+               </a>
+            </div>
+            <div class="image-text-grid-text">
+               <h2><a href="https://centraladeescalada.ro/" target="_blank">Centrala de escaladă</a></h2>
+               <ul>
+                  <li>
+                     <strong>Discount 20%</strong> la abonamentele lunare - <a href="#discounts">detalii la
+                        <sup>3</sup></a>
+                  </li>
+                  <li>
+                     <strong>Discount 25%</strong> la intrările individuale - <a href="#discounts">detalii la
+                        <sup>3</sup></a>
+                  </li>
+                  <li>
+                     <strong>5 evenimente anuale gratuite</strong> pentru CAR,
+                     cu excepția cursurilor sau atelierelor de
+                     cățărat, anunțate cu un timp rezonabil în avans
+                  </li>
+                  <li>
+                     Folosința gratuită și nelimitată de către Club a spatiului de
+                     deasupra recepției
+                  </li>
+               </ul>
+            </div>
+         </div>
+         <div class="image-text-grid-row">
+            <div class="image-text-grid-img">
+               <a href="https://www.facebook.com/escalada.gravity/" target="_blank">
+                  <img src="https://carcluj.ro/sites/default/files/benefits/gravity.png" />
+               </a>
+            </div>
+            <div class="image-text-grid-text">
+               <h2><a href="https://www.facebook.com/escalada.gravity/" target="_blank">Gravity - sală de escaladă</a>
+               </h2>
+               <ul>
+                  <li>
+                     <strong>Discount 20%</strong> la abonamentele lunare - <a href="#discounts">detalii la
+                        <sup>3</sup></a>
+                  </li>
+                  <li>
+                     1 atelier de inițiere/lună pentru club
+                  </li>
+                  <li>
+                     Folosința gratuită a sălii pentru pt proiecții/alte evenimente în condițiile unui acord prealabil
+                     cu 14 zile
+                  </li>
+               </ul>
+            </div>
+         </div>
+         <div class="image-text-grid-row">
+            <div class="image-text-grid-img">
+               <a href="https://skaiurbancrag.ro/" target="_blank">
+                  <img src="https://carcluj.ro/sites/default/files/benefits/skai.png" />
+               </a>
+            </div>
+            <div class="image-text-grid-text">
+               <h2><a href="https://skaiurbancrag.ro/" target="_blank">Skai Urban Crag</a></h2>
+               <ul>
+                  <li>
+                     <strong>Discount 20%</strong> la abonamentele lunare - <a href="#discounts">detalii la
+                        <sup>3</sup></a>
+                  </li>
+                  <li>
+                     1 eveniment anual gratuit, anunțat cu cel puțin 2 săptămâni înainte
+                  </li>
+                  <li>
+                     Orice alt eveniment trebuie discutat in prealabil pentru a stabili detaliile și condițiile de
+                     desfășurare.
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+
+      <strong id="discounts">
+         Orice discount se acordă membrilor clubului doar pe baza legitimației CAR valabilă!
+      </strong>
+      <p><sup>1</sup> - Discountul se aplică la prețul întreg și variază în funcție de brand (Dynafit -
+         22%, Movement - 28%, La
+         Sportiva - 25%, Black Diamond - 20%, Black Crows - 20%, Pomoca - 20%).<br>
+         <sup>2</sup> - Discountul se aplică la comenzile online folosind un cod de reducere oferit la cerere.<br>
+         <sup>3</sup> - Reducerile se vor aplica membrilor CAR cu cotizația plătită la zi, pe baza prezentării
+         legitimației.
+      </p>
+   </section>
+
+   <section>
+      <h2>Parteneri și Echipament</h2>
+      <div class="image-text-grid">
+         <div class="image-text-grid-row">
+            <div class="image-text-grid-img">
+               <a href="http://www.parcapuseni.ro/" target="_blank">
+                  <img src="https://carcluj.ro/sites/default/files/benefits/pna.jpg" />
+               </a>
+            </div>
+            <div class="image-text-grid-text">
+               <h2><a href="http://www.parcapuseni.ro/" target="_blank">Parcul Natural Apuseni</a></h2>
+               <p>Aviz global gratuit pentru acces în Parcul Natural
+                  Apuseni pentru practicarea activităților specifice CAR,
+                  posibilitatea de a utiliza centrele de vizitare și
+                  punctele de informare turistică gratuit, acțiuni în
+                  parteneriat în evenimente specifice CAR, parte în alte
+                  evenimente, acțiuni de ecologizare și educare
+                  montană în incinta PNA.</p>
+            </div>
+         </div>
+         <div class="image-text-grid-row">
+            <div class="image-text-grid-img">
+               <a href="https://muntii-nostri.ro/" target="_blank">
+                  <img src="https://carcluj.ro/sites/default/files/benefits/muntiinostri.png" />
+               </a>
+            </div>
+            <div class="image-text-grid-text">
+               <h2>
+                  <a href="https://muntii-nostri.ro/" target="_blank">
+                     Munții noștri
+                  </a>
+               </h2>
+               <ul>
+                  <li>10% reducere pentru hărțile tipărite</li>
+                  <li>30% reducere pentru abonamentele explorer din aplicația MN</li>
+               </ul>
+            </div>
+         </div>
+         <div class="image-text-grid-row">
+            <div class="image-text-grid-img">
+               <a href="https://www.maramontsport.ro/" target="_blank">
+                  <img src="https://carcluj.ro/sites/default/files/benefits/maramontpieps.png" />
+               </a>
+            </div>
+            <div class="image-text-grid-text">
+               <h2>
+                  <a href="https://www.maramontsport.ro/" target="_blank">
+                     Maramont și Pieps
+                  </a>
+               </h2>
+               <p>Instruire, formare și suport gratuit în domeniul snow-safety,
+                  strategii de căutare, prezentare tehnologii noi, teste pentru
+                  publicul larg, cu posibilitatea de a invita personalități
+                  internaționale din domeniu, precum si închirierea gratuită de
+                  echipamente PIEPS pentru evenimentele CAR.</p>
+            </div>
+         </div>
+         <div class="image-text-grid-row">
+            <div class="image-text-grid-img">
+               <a href="https://maratonapuseni.ro/" target="_blank">
+                  <img src="https://carcluj.ro/sites/default/files/benefits/maratonapuseni.png" />
+               </a>
+            </div>
+            <div class="image-text-grid-text">
+               <h2>
+                  <a href="https://maratonapuseni.ro/" target="_blank">
+                     .msg Maraton Apuseni
+                  </a>
+               </h2>
+               <p>
+                  Membrii CAR Cluj au o reducere de 50% din prețul întreg la înscrierea la orice probă a .msg Maraton
+                  Apuseni.
+               </p>
+            </div>
+         </div>
+         <div class="image-text-grid-row">
+            <div class="image-text-grid-img">
+               <a href="http://www.padis.ro/ro/cabana-cet%C4%83%C8%9Bile-ponorului/" target="_blank">
+                  <img src="https://carcluj.ro/sites/default/files/benefits/mountainhut2.png" />
+               </a>
+            </div>
+            <div class="image-text-grid-text">
+               <h2>
+                  <a href="http://www.padis.ro/ro/cabana-cet%C4%83%C8%9Bile-ponorului/" target="_blank">
+                     Prețuri reduse la cazare
+                  </a>
+               </h2>
+               <p><strong>Căminul Alpin Bușteni</strong> - casa CAR, acces și tarife preferențiale.</p>
+               <p><strong>Cabana Cetățile Ponorului</strong> - Discount de 10% oferit la prețul cazării.</p>
+            </div>
+         </div>
+         <div class="image-text-grid-row">
+            <div class="image-text-grid-img">
+               <a href="https://carcluj.ro/dashboard/equipment" target="_blank">
+                  <img src="https://carcluj.ro/sites/default/files/benefits/echipament.png" />
+               </a>
+            </div>
+            <div class="image-text-grid-text">
+               <h2>
+                  <a href="https://carcluj.ro/dashboard/equipment" target="_blank">
+                     Acces la echipamentul colectiv al CAR
+                  </a>
+               </h2>
+               <p>Fiecare membru CAR are acces la echipamentul
+                  colectiv al clubului ce cuprinde aproximativ 135 de
+                  articole. Echipamentul variază de la skiuri, piei de
+                  focă, clăpari, căști până la hamuri, corzi, pioleti
+                  (de tură și tehnici), colțari, saci de dormit și multe
+                  altele.
+               </p>
+               <p>
+                  <strong>* Link-ul este accesibil doar membrilor CAR</strong>
+               </p>
+            </div>
+         </div>
+         <div class="image-text-grid-row">
+            <div class="image-text-grid-img">
+               <a href="https://7card.ro/" target="_blank">
+                  <img src="https://carcluj.ro/sites/default/files/benefits/7card.png" </a>
+            </div>
+            <div class="image-text-grid-text">
+               <h2>
+                  <a href="https://7card.ro/" target="_blank">
+                     Rețeaua 7card
+                  </a>
+               </h2>
+               <p>
+                  Abonament lunar în rețeaua 7Card la un preț redus de
+                  125 lei/luna. Discountul se acord pe baza unui cod de
+                  reducere oferit la cerere de către CAR.
+               </p>
+            </div>
+         </div>
+      </div>
+
+   </section>
+</div>
